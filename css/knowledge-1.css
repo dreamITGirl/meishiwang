@@ -1,0 +1,95 @@
+/*副导航部分*/
+#top-nav{
+    width:990px;
+    height:50px;
+    box-sizing:border-box;
+    padding:5px 5px 5px 10px;
+    margin:10px 5px 5px 200px;
+    line-height: 40px;
+}
+#top-nav ul{
+    display: flex;
+}
+#top-nav li{
+    margin-right:35px;
+}
+#top-nav a{
+    color:#FF6C28;
+    font-size:15px;
+}
+#top-nav a.first{
+    color:#000000;
+    font-weight:bold;
+}
+/*主体部分*/
+#main{
+    width:990px;
+    min-height:300px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+#main h1{
+    text-align: center;
+}
+#main div p{
+  float:right;
+    line-height:24px;
+}
+div.title h1{
+    margin-top: 10px;
+}
+#main div.main-img{
+    width:1080px;
+    min-height:200px;
+    margin:35px 0 10px 60px;
+    display:flex;
+    flex-wrap:wrap;
+}
+div.kld-list{
+    margin-right: 50px;
+}
+div.last-one{
+    margin-right:0;
+}
+div.user-info ul{
+    width:232px;
+    text-align: center;
+    border:1px solid #ddd;
+    border-top:0;
+    padding:2px;
+    box-sizing: border-box;
+    margin-bottom:10px;
+}
+div.user-info ul li{
+    margin:5px 0;
+}
+div.user-info ul a.title-point{
+    font-size: 14px;
+    color:#000;
+    font-weight: bold;
+}
+div.user-info a.user-name{
+ color:#e4393c;
+}
+
+
+
+
+p.pages{
+    text-align:center;
+    margin:15px auto;
+}
+p.pages a{
+    display:inline-block;
+    min-width:15px;
+    min-height:15px;
+    border:1px solid #d0e9c6;
+    padding:5px;
+    margin:10px;
+    border-radius:5px;
+    background:#E0F1EE;}
+
+.keyframes:hover{
+ transform:scale(1.1);
+    transition:all .3s linear;
+}

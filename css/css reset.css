@@ -1,0 +1,37 @@
+/**页面通用设置**/
+body{
+    font-family:"Microsoft yahei",Arial,sans-serif,Helvetica;
+    font-size:12px;
+    color:#66666A;
+    margin:0 auto;
+}
+
+a{
+    text-decoration:none;
+    color:#66666A;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.lf{
+    float:left;
+}
+.rt{
+    float:right;
+}
+
+.clear{
+    clear:both;
+}
+
+img{
+    vertical-align:bottom;
+}
+
+ul,p,h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+    list-style:none;
+}

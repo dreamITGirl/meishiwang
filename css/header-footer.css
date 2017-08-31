@@ -1,0 +1,242 @@
+/**ҳ�沼��**/
+#top-box,#nav,#banner,#main,#footer{
+    width:1211px;
+    margin:0 auto;
+}
+
+/**��һ���֣�header����**/
+#top{
+    height:30px;
+    background-color:#C90000;
+    padding:10px;
+    line-height:30px;
+}
+
+#top div span{
+    font-size:15px;
+    color:#fff;
+    margin-right:460px;
+    margin-left:30px;
+    float:left;
+}
+#top ul li{
+    float:left;
+    margin-right:10px;
+}
+#top  a{
+    color:#fff;
+    text-decoration:none;
+}
+#top div b{
+    display:block;
+    background:url("../images/sprite.png") no-repeat;
+    float:left;
+    margin:3px 10px;
+    width:21px;
+    height:20px;
+}
+#top div b.qq{
+    background-position:-257px -143px;
+}
+#top div b.weibo{
+    background-position:-191px -144px;
+}
+div#top-1 a{
+    float:left;}
+
+/**�ڶ����֡�������LOGO**/
+#top-box{
+    border:none;
+    height:60px;
+    box-sizing:border-box;
+}
+#logo>img.logo{
+    width:200px;
+    margin:10px 15px;
+    float:left;
+}
+
+#top-box input{
+    margin:15px 20px;
+    width:280px;
+    height:30px;
+    padding-left:10px;
+    outline:none;
+    border:2px solid #F6652C;
+    float:left;
+    position:relative;
+}
+
+#top-box button{
+    border:2px solid #F6652C;
+    background-color:#F6652C;
+    height:30px;
+    width:55px;
+    color:#fff;
+    font-size:14px;
+    border-radius:5px;
+    float:left;
+    margin-top:15px;
+}
+
+
+#logo i a{
+    text-decoration:none;
+    font-size:14px;
+    font-style:normal;
+    color:#fff;
+    background-color:#F6652C;
+    position:absolute;
+    top:65px;
+    left:760px;
+    padding:5px 15px;
+}
+
+div#menu{
+    width: 145px;
+    position: absolute;
+    right: 396px;
+    top: 45px;
+    box-sizing: border-box;
+    padding-left: 25px;
+
+}
+
+
+
+
+
+div#logo img.shopping-car{
+    width: 30px;
+
+    vertical-align: middle;
+    margin-right: 10px;
+    position: absolute;
+    top: 23px;
+    left: 110px;
+    right: 89px;
+
+}
+div#logo b{
+    display:inline-block;
+    line-height:60px;
+    padding-top:5px;
+}
+div#shopping{
+    width:60px;
+    height:30px;
+    border:1px solid #ddd;
+}
+
+div#menu b#mychart{
+    width: 100px;
+    height: 110px;
+    line-height: 60px;
+    position: relative;
+    z-index: 1000;
+    float: right;
+}
+div#shopping{
+    width:300px;
+    height:100px;
+    padding:15px;
+    padding-left:52px;
+    background-color:#fff;
+    border:1px solid #ddd;
+    border-top:none;
+    font-size:14px;
+    /*���Զ�λ*/
+    position:absolute;
+    right:340px;
+    top:100px;
+    z-index:500;
+    /*Ĭ������*/
+    display:none;
+}
+
+div#shopping b{
+    display:inline-block;
+    width:52px;
+    height:44px;
+    background:url(../images/iconlist_2.png) no-repeat;
+    margin-right:10px;
+}
+
+/**网页主导航**/
+#nav{
+    height:40px;
+    background-color:#F6652C;
+    border:none;
+    box-sizing:border-box;
+    padding:0 25px;
+    text-align:center;
+    margin-bottom:5px;
+}
+#nav ul.lf{
+    line-height:40px;
+}
+#nav ul.lf li{
+    float:left;
+    margin-right:35px;
+}
+#nav ul.lf li a{
+    color:#fff;
+    font-weight:bold;
+    font-size:14px;
+}
+#sub-cate{
+    position:relative;
+    width:75px;
+}
+li#sub-cate ul{
+    width:101px;
+    padding-bottom:10px;
+    background-color:#F6652C;
+    position:absolute;
+    top:30px;
+    left:-8px;
+    display:none;
+    z-index:10;
+}
+li#sub-cate ul.sub-cate-items li a{
+    padding:5px;
+}
+
+
+
+
+/*网页底部*/
+#footer{
+    width:1000px;
+    min-height:50px;
+    margin-left:300px;
+    margin-top:50px;
+    padding:10px;
+    box-sizing: border-box;
+    border:none;
+}
+#footer ul{
+    margin-top:50px;
+}
+#footer ul.last-lists{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.last-lists li{
+    margin:10px;
+    border-right:1px solid #ddd;
+    padding-right:20px;
+}
+ul.last-lists li:last-child{
+    border-right:none;
+}
+
+
+
+
+
+
+
+
+
+

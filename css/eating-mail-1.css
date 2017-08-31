@@ -1,0 +1,117 @@
+/*�����������*/
+#nav-sec{
+    width:80%;
+    min-height:40px;
+    background-color: #d0e9c6;
+    margin:20px auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#nav-sec p:first-child{
+    float:right;
+}
+#nav-sec li{
+    float:left;
+    margin-right:15px;
+}
+
+#main{
+    width:90%;
+    min-height:300px;
+    border:1px solid #ddd;
+    padding:10px;
+    box-sizing: border-box;
+}
+#main div a{
+   float:right;
+}
+
+div.main-title{
+    text-align:center;
+
+}
+div.picture-dining{
+    width:200px;
+    height:200px;
+    position:relative;
+    overflow: hidden;
+    margin: 10px 28px 10px 10px;
+
+}
+div.dining-room{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.picture-dining p {
+    width:200px;
+    height:200px;
+    background-color:rgba(255,255,255,0.7);
+    position:absolute;
+    top:200px;
+    left:0;
+    text-align: center;
+    box-sizing: border-box;
+    padding:50px;
+    line-height:2.5;
+}
+div.picture-dining:hover p.info-img{
+    top:0;
+    transition:top 1s;
+}
+#main-bottom{
+  width:94%;
+    min-height:100px;
+    box-sizing: border-box;
+    margin:20px 10px 0 5px;
+    display: flex;
+}
+div.left-dining{
+    width: 76%;
+    margin-right: 85px;
+}
+div.left-dining p.more{
+    float:right;
+}
+div.left-dining h2{
+    margin-left:20px;
+    line-height:2.5;
+}
+div.left-dining p{
+    padding:10px;
+}
+div.left-dining h3{
+    padding-left:10px;
+}
+p.img-part{
+    display: flex;
+}
+p.img-part>img{
+height:145px;
+  margin-right:70px;
+
+}
+div.right-dining{
+    width: 30%;
+    min-height: 200px;
+}
+div#rt-pic{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:10px;
+}
+#rt-pic img{
+  height:150px;
+    margin-bottom:10px;
+}
+#rt-pic dl{
+    margin-right:20px;
+}
+/*返回顶部样式设计*/
+a.totop{
+    position: fixed;
+    top: 69%;
+    right:0;
+}
+.none{
+    display: none;
+}

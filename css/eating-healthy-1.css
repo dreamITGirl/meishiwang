@@ -1,0 +1,95 @@
+
+/*副导航部分*/
+#top-nav{
+    width:990px;
+    height:50px;
+    box-sizing:border-box;
+    padding:5px 5px 5px 10px;
+    margin:10px 5px 5px 200px;
+    line-height: 40px;
+}
+#top-nav ul{
+    display: flex;
+}
+#top-nav li{
+    margin-right:35px;
+}
+#top-nav a{
+    color:#FF6C28;
+    font-size:15px;
+}
+#top-nav a.first{
+    color:#000000;
+    font-weight:bold;
+}
+#bottom-list{
+    width:300px;
+    height:15px;
+    box-sizing:border-box;
+    padding:5px 5px 5px 10px;
+    margin:10px 5px 5px 200px;
+    line-height: 15px;
+}
+
+#main{
+    min-height:300px;
+    border-top:none;
+}
+#main div.menu-text{
+    margin:20px 0 10px 10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+div.menu-text div{
+    width:185px;
+    min-height:195px;
+    border:1px solid #ddd;
+    box-sizing: border-box;
+    margin:40px 15px 10px 0;
+}
+div.menu-text h2{
+    margin-bottom: 10px;
+}
+div.menu-text img{
+    width:180px;
+   vertical-align: top;
+    margin-left:2px;
+}
+ ul.infromation{
+  text-align: center;
+}
+ ul.infromation li{
+     margin:10px 0;
+ }
+ ul.infromation li a.user-name{
+    color:red;
+}
+div.content>img:hover{
+    transform:scale(0.9);
+    transition: all .5s,linear;
+}
+
+p.pages{
+    text-align:center;
+    margin:15px auto;
+}
+p.pages a{
+    display:inline-block;
+    min-width:15px;
+    min-height:15px;
+    border:1px solid #dddddd;
+    padding:5px;
+    margin:10px;
+    border-radius:5px;
+    background:#E0F1EE;
+}
+
+/*返回顶部样式设计*/
+a.totop{
+    position: fixed;
+    top: 69%;
+    right:0;
+}
+.none{
+    display: none;
+}

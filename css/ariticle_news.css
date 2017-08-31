@@ -1,0 +1,291 @@
+#main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/*文章标题部分样式设计*/
+
+#leftpart{
+    width:65%;
+    border:1px solid #ddd;
+    margin:10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+.headtitle>h1{
+    text-align: center;
+    margin-top:10px;
+}
+ul.zuozhe{
+display: flex;
+}
+ul.zuozhe img{
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top:5px;
+}
+ul.zuozhe li{
+    margin-right:7px;
+    height:32px;
+}
+ul.zuozhe>li:not(:first-child){
+    margin-top:15px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+ul.zuozhe a{
+    font-size: 15px;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+ul.zuozhe>li:nth-child(4){
+    margin-left:215px;
+}
+ul.share{
+   display: flex;
+    margin-right: 10px;
+}
+ul.share>li{
+    width:20px;
+    height:20px;
+}
+ul.share >li:first-child{
+    width:40px;
+    height:30px;
+    background:url("../images/sprite.png") no-repeat  -165px -112px;
+}
+ul.share>li:first-child>a{
+    color:#fff;
+    padding-left:4px;
+}
+ul.share>li:nth-child(2){
+    width:40px;
+}
+ul.share>li:nth-child(3){
+    background:url("../images/sprite.png") no-repeat -258px -145px;
+}
+ul.share>li:nth-child(4){
+    background:url("../images/sprite.png") no-repeat -191px -145px;
+}
+ul.share>li:nth-child(5){
+    background:url("../images/sprite.png") no-repeat -169px -145px;
+}
+ul.pinglun{
+   margin-left: 80px;
+    display:flex;
+}
+ul.pinglun>li{
+    margin-right:10px;
+}
+
+/*文章主体部分*/
+article.passage{
+    margin-top: 15px;
+    line-height: 2.5;
+
+}
+article>img{
+margin-left:30%;
+    border:1px solid #aaaaaa;
+}
+/*评论区*/
+div.comment{
+    width:65%;
+    border:1px solid #ddd;
+    margin-left:10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding-left:15px;
+    padding-right:10px;
+}
+p.labels{
+  margin-left: 5px;
+}
+p.labels>img{
+    float:left;
+}
+p.labels>span{
+  vertical-align: top;
+    padding-top:3px;
+    font-size: 14px;
+}
+p.labels>b.design{
+    vertical-align: top;
+    padding-left: 5px;
+}
+p.labels b.design{
+    background-color:#FF3232;
+    padding:3px;
+    color:#fff;
+    font-weight:normal;
+}
+p.labels b:last-child{
+background-color: #EEEEEE;
+    color:#aaa;
+}
+textarea{
+    width:600px;
+    height:80px;
+   background:#FCFCFC;
+    margin:10px 0 10px 20px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.btn{
+    width:60px;
+    height:30px;
+    background-color: #E4393C;
+    color:#fff;
+    padding:5px;
+    outline: none;
+    border:none;
+    float: right;
+    margin-right: 75px;
+}
+hr{
+    width: 90%;
+    margin: 15px 40px;
+    text-align: center;
+}
+div.commentpart{
+    display:flex;
+    flex-wrap: wrap;
+    border-bottom:1px solid #ddd;
+    margin-bottom:5px;
+    line-height: 2;
+}
+p.txtimg{
+    margin-left:15px;
+}
+div.txtpart{
+   margin:9px 0 0 15px;
+    width:75%;
+}
+div.txtpart>b.labtit{
+    color:#E4393C;
+}
+ul.timer{
+    display: flex;
+}
+ul.timer>li{
+    margin: 20px 10px 0 0;
+}
+ul.respinfo{
+    float: right;
+}
+ul.respinfo>li{
+    float: left;
+}
+ul.respinfo>li:first-child img{
+    width:17px;
+}
+ul.respinfo>li{
+    margin-right:10px;
+}
+/*评论区下的页码设计*/
+ ul.pages{
+     display: flex;
+     margin:10px;
+     margin-left:155px;
+ }
+ul.pages li{
+    border:1px solid #d0e9c6;
+    padding:5px;
+    height:25px;
+    width:25px;
+    margin-right:10px;
+    text-align: center;
+    background-color: #E0F1EE;
+    border-radius: 5px;
+}
+ul.pages li:last-child{
+    width:45px;
+}
+
+/*右侧广告区设置*/
+aside#right{
+    width:30%;
+    margin-left:20px;
+    margin-top:10px;
+    border:1px solid #ddd;
+    min-height:200px;
+}
+.btn-submit{
+    width:90%;
+    height:50px;
+    background-color: #E4393C;
+    color:#fff;
+    outline: none;
+   border:none;
+    margin:10px 15px;
+}
+/*浏览过的部分样式设计*/
+div.others{
+    margin:35px;
+    padding-left: 70px;
+    box-sizing: border-box;
+}
+ h1{
+    text-align: center;
+}
+ div.box{
+     display:flex;
+     margin-top:10px;
+ }
+div.kld-list{
+    border:1px solid #aaa;
+    margin-right:55px;
+    margin-top: 25px;
+}
+div.user-info{
+    text-align: center;
+}
+div.user-info li{
+    margin-top:10px;
+
+}
+a.title-point{
+    color:#000;
+    font-weight: bold;
+}
+a.user-name{
+    color:#e4393c;
+}
+/*广告区样式设计*/
+div#slider{
+    width: 274px;
+    height: 179px;
+    overflow: hidden;
+    position:relative;
+    box-sizing: border-box;
+   margin-left: 45px;
+    margin-top:15px;
+}
+#right #adtm li{
+    float: left;
+    /*width:274px;*/
+    /*height:170px;*/
+}
+#right #adtm{
+    position: absolute;
+    top:0;
+    left:0;
+    height:170px;
+}
+h2.zoomIn{
+    text-align: center;
+    margin-top:10px;
+}
+img.erweima{
+    margin:40px;
+}
+
+/*返回顶部样式设计*/
+a.totop{
+    position: fixed;
+    top: 69%;
+    right:0;
+}
+.none{
+    display: none;
+}
